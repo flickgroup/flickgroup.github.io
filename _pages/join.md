@@ -1,8 +1,8 @@
 ---
 layout: page
 permalink: /join/
-title: Join us
-description: Join us
+title: join us
+description: join us
 nav: true
 nav_order: 5
 ---
