@@ -14,6 +14,6 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Our lab is interested in the electronic structure of a wide range of systems, in particular with strong light-matter interactions. XYZ
+Our group is interested in the electronic structure of a wide range of systems, with a particular focues on systems, where the interaction between light and matter becomes strong. We study systems such as molecules and materials in optical cavities, and quantum defects in wide-band gap materials. To describe these systems, we develop theoretical methods, such as quantum-electrodynamical density-functional theory (QEDFT) and others.
 
 For more information about specific projects, please visit our projects page.
