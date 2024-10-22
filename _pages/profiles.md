@@ -11,13 +11,13 @@ List of group members
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/johannes.jpg" title="example image" class="img-fluid rounded-circle z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/johannes.jpg" class="img-fluid rounded-circle z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/johannes.jpg" title="example image" class="img-fluid rounded-circle z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/johannes.jpg" class="img-fluid rounded-circle z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/johannes.jpg" title="example image" class="img-fluid rounded-circle z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/johannes.jpg" class="img-fluid rounded-circle z-depth-1" %}
     </div>
 </div>
 

@@ -6,5 +6,3 @@ related_posts: false
 ---
 
 Our new <a href="https://pubs.aip.org/aip/jcp/article/161/15/154104/3316881/Cavity-Born-Oppenheimer-approximation-for">paper</a> with John Bonini and Iman Ahmadabadi has now been published in JCP. Congrats!
-
-
