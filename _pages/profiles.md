@@ -5,24 +5,38 @@ title: people
 description: members of the lab or group
 nav: true
 nav_order: 3
-
-profiles:
-  # if you want to include more than one profile, just replicate the following block
-  # and create one content file for each profile inside _pages/
-  - align: left
-    image: johannes.jpg
-    content:
-    image_circular: false # crops the image to make it circular
-    more_info: >
-      <p>555 your office number</p>
-      <p>123 your address street</p>
-      <p>Your City, State 12345</p>
-  - align: center
-    image: johannes.jpg
-    content:
-    image_circular: false # crops the image to make it circular
-    more_info: >
-      <p>555 your office number</p>
-      <p>123 your address street</p>
-      <p>Your City, State 12345</p>
 ---
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/johannes.jpg" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="caption">
+        Johannes Flick
+        Principle Investigator
+        Postdoc,Harvard University (2017 - 2019)
+        Ph.D. Humboldt University and Fritz Haber Institute (2016)
+        Diplom Physics, Karlsruhe Institute of Technology, Germany (2011)
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/johannes.jpg" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="caption">
+        Johannes Flick
+        Principle Investigator
+        Postdoc,Harvard University (2017 - 2019)
+        Ph.D. Humboldt University and Fritz Haber Institute (2016)
+        Diplom Physics, Karlsruhe Institute of Technology, Germany (2011)
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/johannes.jpg" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="caption">
+        Johannes Flick
+        Principle Investigator
+        Postdoc,Harvard University (2017 - 2019)
+        Ph.D. Humboldt University and Fritz Haber Institute (2016)
+        Diplom Physics, Karlsruhe Institute of Technology, Germany (2011)
+    </div>
+</div>
+
