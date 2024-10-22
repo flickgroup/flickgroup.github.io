@@ -18,6 +18,7 @@ List of group members
     </div>
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/johannes.jpg" class="img-fluid rounded-circle z-depth-1" %}
+        <div class="more-info">{{ Johannes Flick }}</div>
     </div>
 </div>
 
