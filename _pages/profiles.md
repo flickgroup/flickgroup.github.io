@@ -27,7 +27,7 @@ List of group members
     <p>Your City, State 12345</p>
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/johannes.jpg" class="img-fluid rounded-circle z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/johannes.jpg" class="img-fluid rounded-circle z-depth-1" size="80vw"%}
         <div class="more-info">
         Johannes Flick
         <p>555 your office number</p>
