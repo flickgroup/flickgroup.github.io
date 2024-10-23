@@ -61,6 +61,8 @@ List of group members
         B.A.
     </figcaption>
     </div>
+    <div class="col-sm mt-3 mt-md-0">
+    </div>
 </div>
 
 Past group members:
