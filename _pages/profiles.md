@@ -52,6 +52,15 @@ List of group members
         B.A. Columbia University (2023)
     </figcaption>
     </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/white.jpg" class="img-fluid rounded-circle z-depth-1" %}
+    <figcaption class="caption">
+    <h3>Leonardo dos Anjos Cunha</h3>
+    <h4>Postdoctoral Fellow at Flatiron Institute CCQ</h4>
+        Ph.D. UC Berkeley 2023<br/>
+        B.A.
+    </figcaption>
+    </div>
 </div>
 
 
