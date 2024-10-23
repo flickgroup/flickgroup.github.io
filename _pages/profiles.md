@@ -23,21 +23,35 @@ List of group members
     </figcaption>
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/johannes.jpg" class="img-fluid rounded-circle z-depth-1" %}
-    #Johannes Flick
-    ##555 your office number
-    123 your address street
-    Your City, State 12345
+        {% include figure.liquid loading="eager" path="assets/img/white.jpg" class="img-fluid rounded-circle z-depth-1" %}
+    <figcaption class="caption">
+    <h3>Mohammad Hassan</h3>
+    <h4>Graduate Student</h4>
+        Ph.D. The CUNY Graduate Center (2021-Present)<br/>
+        B.S. The City College of New York (2021)
+    </figcaption>
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/johannes.jpg" class="img-fluid rounded-circle z-depth-1" size="80vw" %}
-        <div class="more-info">
-        Johannes Flick
-        <p>555 your office number</p>
-        <p>123 your address street</p>
-        <p>Your City, State 12345</p>
-        </div>
+        {% include figure.liquid loading="eager" path="assets/img/white.jpg" class="img-fluid rounded-circle z-depth-1" size="80vw" %}
+        <figcaption class="caption">
+    <h3>Cankut Tasci</h3>
+    <h4>Graduate Student</h4>
+        Ph.D. The CUNY Graduate Center (2021-Present)<br/>
+        B.S. The City College of New York (2021)
+    </figcaption>
     </div>
 </div>
 
-More people ...
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/jc.jpg" class="img-fluid rounded-circle z-depth-1" %}
+    <figcaption class="caption">
+    <h3>J.C. Umana</h3>
+    <h4>Graduate Student</h4>
+        Ph.D. The CUNY Graduate Center (2023-Present)<br/>
+        B.A. Columbia University (2023)
+    </figcaption>
+    </div>
+</div>
+
+
