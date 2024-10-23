@@ -12,6 +12,3 @@ We are now accepting highly motivated, serious and committed undergraduate stude
 
 **For Graduate Students:**
 Email us directly, at jflick@ccny.cuny.edu and include a pdf of your CV. Please apply via the Graduate Center directly <a href="https://www.gc.cuny.edu/physics">here</a>. Funding via Myriam Sarachik Flatiron-CUNY Doctoral Fellowship available for more information see <a href="https://www.gc.cuny.edu/physics/admissions-and-aid#myriam-sarachik-flatiron-cuny-doctoral-fellowship">here</a>.
-
-
-
