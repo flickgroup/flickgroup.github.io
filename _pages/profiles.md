@@ -15,9 +15,9 @@ List of group members
     <figcaption class="caption">
     <h3>Johannes Flick</h3>
     <h4>Principle Investigator</h4>
-    Assistant Professor CCNY, since 2022.<br>
-        (Affiliate) Associate Research Scientist, Faculty, Flatiron Institute CCQ, since 2019.<br>
-        DFG Postdoctoral Fellow, Harvard University (2017 - 2019).<br>
+        Assistant Professor CCNY, since 2022.<br/>
+        (Affiliate) Associate Research Scientist, Flatiron Institute CCQ, since 2019.<br/>
+        DFG Postdoctoral Fellow, Harvard University (2017 - 2019).<br/>
         Ph.D. Fritz Haber Institute and Humboldt University Berlin, Germany (2016).<br/>
         Diplom Physics, Karlsruhe Institute of Technology, Germany (2011).<br/>
     </figcaption>
