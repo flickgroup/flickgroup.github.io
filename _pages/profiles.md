@@ -63,4 +63,6 @@ List of group members
     </div>
 </div>
 
+Past group members:
 
+**Gabriel Lopez Morales** (CREST Postdoctoral Fellow 2022-2024), now Postdoc at Stonybrook University.
