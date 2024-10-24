@@ -19,11 +19,11 @@ List of group members
         (Affiliate) Associate Research Scientist, Flatiron Institute CCQ, since 2019.<br/>
         DFG Postdoctoral Fellow, Harvard University (2017 - 2019).<br/>
         Ph.D. Fritz Haber Institute and Humboldt University Berlin, Germany (2016).<br/>
-        Diplom Physics, Karlsruhe Institute of Technology, Germany (2011).<br/>
+        Diplom Physics, Karlsruhe Institute of Technology, Germany (2011).
     </figcaption>
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/white.jpg" class="img-fluid rounded-circle z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/mohammad.jpg" class="img-fluid rounded-circle z-depth-1" %}
     <figcaption class="caption">
     <h3>Mohammad Hassan</h3>
     <h4>Graduate Student</h4>
@@ -36,8 +36,10 @@ List of group members
         <figcaption class="caption">
     <h3>Cankut Tasci</h3>
     <h4>Graduate Student</h4>
-        Ph.D. The CUNY Graduate Center (2021-Present)<br/>
-        B.S. The City College of New York (2021)
+        Ph.D. in Physics, The CUNY Graduate Center (2021-Present)<br/>
+        M.Sc. in Physics, Middle East Technical University (2021)<br/>
+        B.S. in Mathematics, Middle East Technical University (2018)<br/>
+        B.S. in Physics, Middle East Technical University (2017)
     </figcaption>
     </div>
 </div>
@@ -53,11 +55,11 @@ List of group members
     </figcaption>
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/white.jpg" class="img-fluid rounded-circle z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/leo.jpg" class="img-fluid rounded-circle z-depth-1" %}
     <figcaption class="caption">
     <h3>Leonardo dos Anjos Cunha</h3>
     <h4>Postdoctoral Fellow at Flatiron Institute CCQ</h4>
-        Ph.D. UC Berkeley 2023<br/>
+        Ph.D. UC Berkeley 2023
         B.A.
     </figcaption>
     </div>
