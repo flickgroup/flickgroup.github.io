@@ -14,7 +14,7 @@ List of group members
         {% include figure.liquid loading="eager" path="assets/img/johannes.jpg" class="img-fluid rounded-circle z-depth-1" %}
     <figcaption class="caption">
     <h3>Johannes Flick</h3>
-    <h4>Principle Investigator</h4>
+    <h5>Principle Investigator</h5>
         Assistant Professor CCNY, since 2022.<br/>
         (Affiliate) Associate Research Scientist, Flatiron Institute CCQ, since 2019.<br/>
         DFG Postdoctoral Fellow, Harvard University (2017 - 2019).<br/>
@@ -26,7 +26,7 @@ List of group members
         {% include figure.liquid loading="eager" path="assets/img/mohammad.jpg" class="img-fluid rounded-circle z-depth-1" %}
     <figcaption class="caption">
     <h3>Mohammad Hassan</h3>
-    <h4>Graduate Student</h4>
+    <h5>Graduate Student</h5>
         Ph.D. The CUNY Graduate Center (2021-Present)<br/>
         B.S. The City College of New York (2021)
     </figcaption>
@@ -35,7 +35,7 @@ List of group members
         {% include figure.liquid loading="eager" path="assets/img/white.jpg" class="img-fluid rounded-circle z-depth-1" size="80vw" %}
         <figcaption class="caption">
     <h3>Cankut Tasci</h3>
-    <h4>Graduate Student</h4>
+    <h5>Graduate Student</h5>
         Ph.D. in Physics, The CUNY Graduate Center (2021-Present)<br/>
         M.Sc. in Physics, Middle East Technical University (2021)<br/>
         B.S. in Mathematics, Middle East Technical University (2018)<br/>
@@ -49,7 +49,7 @@ List of group members
         {% include figure.liquid loading="eager" path="assets/img/jc.jpg" class="img-fluid rounded-circle z-depth-1" %}
     <figcaption class="caption">
     <h3>J.C. Umana</h3>
-    <h4>Graduate Student</h4>
+    <h5>Graduate Student</h5>
         Ph.D. The CUNY Graduate Center (2023-Present)<br/>
         B.A. Columbia University (2023)
     </figcaption>
@@ -58,7 +58,7 @@ List of group members
         {% include figure.liquid loading="eager" path="assets/img/leo.jpg" class="img-fluid rounded-circle z-depth-1" %}
     <figcaption class="caption">
     <h3>Leonardo dos Anjos Cunha</h3>
-    <h4>Postdoctoral Fellow at Flatiron Institute CCQ</h4>
+    <h5>Postdoctoral Fellow at Flatiron Institute CCQ</h5>
         Ph.D. UC Berkeley 2023
         B.A.
     </figcaption>
