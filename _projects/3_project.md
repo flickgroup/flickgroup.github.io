@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Studying Polaritonic Systems using Quantum Computing
-description: with background image
+description: Learn about how quantum computing can be used to study polaritonic systems.
 img: assets/img/TOC_figure.pdf
 importance: 1
 category: work
