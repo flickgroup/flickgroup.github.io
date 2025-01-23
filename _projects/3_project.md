@@ -15,6 +15,12 @@ The field of polaritonic chemistry seeks to understand how strong light-matter i
    {% include figure.liquid loading="eager" path="assets/img/TOC_figure.jpg" class="img-fluid rounded z-depth-1" %}
 </div>
 
-In the Flick group, we use quantum computing algorithms to develop novel ways to accurately simulate polaritonic systems in the noisy intermediate-scale quantum (NISQ) era. We exploit the unique properties of polaritonic systems to implement existing algorithms in new ways, develop new algorithms, and mitigate quantum computing error.
+In the Flick group, we use quantum computing algorithms to develop novel ways to accurately simulate polaritonic systems in the noisy intermediate-scale quantum (NISQ) era.{% cite hassan2024simulating%} We exploit the unique properties of polaritonic systems to implement existing algorithms in new ways, develop new algorithms, and mitigate quantum computing error.
 
 [1] M. Hassan, F. Pavosevic, D.S. Wang, and J. Flick, J. Phys. Chem. Lett., 15 (5), 1373-1381 (2024)
+
+<div class="publications">
+
+{% bibliography --cited %}
+
+</div>
