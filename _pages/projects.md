@@ -2,7 +2,7 @@
 layout: page
 title: projects
 permalink: /projects/
-description: Ongoing research projects undertaken by the Flick Group.
+description: Ongoing research projects in the Flick Group.
 nav: true
 nav_order: 1
 display_categories:
