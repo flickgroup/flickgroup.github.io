@@ -59,8 +59,9 @@ List of group members
     <figcaption class="caption">
     <h3>Leonardo dos Anjos Cunha</h3>
     <h5>Postdoctoral Fellow at Flatiron Institute CCQ</h5>
-        Ph.D. UC Berkeley 2023
-        B.A.
+        Ph.D. in Chemistry University of California Berkeley (2023)
+        M.Sc. in Physics Instituto Tecnologico de Aeronautica (2018)
+        B.S.  in Electronics Engineering Instituto Tecnologico de Aeronautica (2017)
     </figcaption>
     </div>
     <div class="col-sm mt-3 mt-md-0">
