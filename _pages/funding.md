@@ -7,4 +7,4 @@ nav: true
 nav_order: 4
 ---
 
-This is where we mention our group's funding.
+This is where we mention our group's funding and acknowledge the sources that have granted us the money.
