@@ -69,6 +69,12 @@ List of group members
 </div>
 
 
+Undergraduate Students:
+
+**Leon G Orlov-Sullivan**  Undergraduate Physics 2024-
+
+**Christopher A Bennett**  Undergraduate Physics 2024-
+
 
 Past group members:
 
