@@ -13,7 +13,7 @@ List of group members
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/johannes.jpg" class="img-fluid rounded-circle z-depth-1" %}
     <figcaption class="caption">
-    <h4>**Johannes Flick**</h4>
+    <h4>Johannes Flick</h4>
     <h5>Principle Investigator</h5>
         Assistant Professor CCNY, since 2022.<br/>
         (Affiliate) Associate Research Scientist, Flatiron Institute CCQ, since 2019.<br/>
@@ -69,13 +69,13 @@ List of group members
 </div>
 
 
-Undergraduate Students:
+<h4>Undergraduate Students:</h4>
 
-**Leon G Orlov-Sullivan**  Undergraduate Physics 2024-
+**Leon G Orlov-Sullivan**  (Undergraduate Physics 2024-)
 
-**Christopher A Bennett**  Undergraduate Physics 2024-
+**Christopher A Bennett**  (Undergraduate Physics 2024-)
 
 
-Past group members:
+<h4>Past group members:</h4>
 
 **Gabriel Lopez Morales** (CREST Postdoctoral Fellow 2022-2024), now Postdoc at Stonybrook University.
