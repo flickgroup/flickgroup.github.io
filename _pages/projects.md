@@ -1,6 +1,6 @@
 ---
 layout: page
-title: projects
+title: research
 permalink: /projects/
 description: Ongoing research projects in the Flick Group.
 nav: true
