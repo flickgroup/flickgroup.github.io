@@ -1,81 +1,26 @@
 ---
 layout: page
-title: project 2
-description: with background image
-img: assets/img/12.jpg
+title: Studying Polaritonic Systems using Quantum Computing
+description: Learn about how quantum computing can be used to study polaritonic systems.
+img: assets/img/TOC_figure.jpg
 importance: 1
 category: work
 related_publications: true
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+The field of polaritonic chemistry seeks to understand how strong light-matter interactions influence chemical reactions. Experimental advances have been accompanied by the development of quantum electrodynamics (QED) ab initio methods, such as quantum electrodynamics density functional theory (QED-DFT) and quantum electrodynamics coupled cluster methods (QED-CC), in which both electrons and photons are treated quantum mechanically. Although these methods have provided significant insight into chemical reactions inside a cavity, these methods rely on numerous approximations. Therefore, these methods are expected to fail in the correct description of strongly correlated systems which play a crucial role in transition metal chemistry, photochemistry, catalysis, and bond-breaking processes, among others. Strongly correlated systems can be accurately described with multireference quantum chemistry methods. However, these methods scale factorially with system size, making them currently unsuitable for simulating large molecules. Quantum algorithms offer an alternative way for solving complex chemical problems.
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
-
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
+<div class="col-sm mt-3 mt-md-0">
+   {% include figure.liquid loading="eager" path="assets/img/TOC_figure.jpg" class="img-fluid rounded z-depth-1" %}
 </div>
 
-You can also put regular text between your rows of images, even citations {% cite einstein1950meaning %}.
-Say you wanted to write a bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+In the Flick group, we use quantum computing algorithms to develop novel ways to accurately simulate polaritonic systems in the noisy intermediate-scale quantum (NISQ) era.{% cite hassan2024simulating%} We exploit the unique properties of polaritonic systems to implement existing algorithms in new ways, develop new algorithms, and mitigate quantum computing error.
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
+[1] M. Hassan, F. Pavosevic, D.S. Wang, and J. Flick, J. Phys. Chem. Lett., 15 (5), 1373-1381 (2024)
+
+<div class="publications">
+
+{% bibliography --cited %}
+
 </div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
-
-{% endraw %}
