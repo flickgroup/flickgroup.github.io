@@ -7,7 +7,13 @@ nav: true
 nav_order: 6
 ---
 
-**Undergraduate researcher:**
+The Flick group embraces an interdisciplinary and team-oriented approach to science and welcomes trainees with backgrounds in physics, chemistry, or computing.
+
+**We firmly believe that a diverse team --both in scientific expertise and life experiences-- enhances the learning from each other and strengthens our research. We strive to create an inclusive environment for lab members of all backgrounds, regardless of race, religion, gender identification, sexual orientation, age, or disability status.**
+
+We are actively recruiting new members. If you are interested in joining, check out the open positions below and email us directly at jflick@ccny.cuny.edu with the relevant materials.
+
+**Undergraduate Researchers:**
 
 We are now accepting highly-motivated, serious and committed undergraduate students to work on projects in the group. Please [email](mailto:jflick@ccny.cuny.edu) your CV with GPA, major, courses taken, intended hours in the lab per week, previous research experience, and future goals. We will follow up to meet and talk about opportunities available.
 
