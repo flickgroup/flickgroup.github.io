@@ -2,7 +2,7 @@
 layout: page
 permalink: /join/
 title: join us
-description: Interested in joining our group? Check out the open positions below and email us directly at jflick@ccny.cuny.edu with the relevant materials.
+description: 
 nav: true
 nav_order: 6
 ---
