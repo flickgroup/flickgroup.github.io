@@ -4,7 +4,7 @@ permalink: /seminar/
 title: seminar
 description: Learn more about our work and collaborations through our joint seminar series with NYU
 nav: true
-nav_order: 5
+nav_order: 4
 ---
 
 To learn more about the CCQ-NYU Light-Matter Seminar Series     
