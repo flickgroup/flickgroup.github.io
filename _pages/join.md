@@ -4,7 +4,7 @@ permalink: /join/
 title: join us
 description: 
 nav: true
-nav_order: 6
+nav_order: 5
 ---
 
 The Flick group embraces an interdisciplinary and team-oriented approach to science and welcomes trainees with backgrounds in physics, chemistry, or computing.
