@@ -2,7 +2,7 @@
 layout: page
 permalink: /seminar/
 title: seminar
-description: Learn more about our work and collaborations through our joint seminar series with NYU
+description: 
 nav: true
 nav_order: 4
 ---
