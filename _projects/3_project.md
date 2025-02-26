@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Electronic structure
+title: Method and software development
 description: 
 img: 
 importance: 1

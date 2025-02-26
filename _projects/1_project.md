@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Polaritonic chemistry
-description: with background image
+title: Polaritonic chemistry and materials
+description: 
 img: assets/img/polaritonicchem.jpg
 importance: 1
 category: work
