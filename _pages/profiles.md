@@ -32,7 +32,7 @@ List of group members
     </figcaption>
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/white.jpg" class="img-fluid rounded-circle z-depth-1" size="80vw" %}
+        {% include figure.liquid loading="eager" path="assets/img/cankut.jpg" class="img-fluid rounded-circle z-depth-1" size="80vw" %}
         <figcaption class="caption">
     <h4>Cankut Tasci</h4>
     <h5>Graduate Student</h5>
@@ -55,7 +55,7 @@ List of group members
     </figcaption>
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/leo.jpg" class="img-fluid rounded-circle z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/leo2.jpg" class="img-fluid rounded-circle z-depth-1" %}
     <figcaption class="caption">
     <h4>Leonardo dos Anjos Cunha</h4>
     <h5>Postdoctoral Fellow at Flatiron Institute CCQ</h5>
