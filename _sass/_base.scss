@@ -881,6 +881,10 @@ h1.post-title {
 }
 
 .post article {
+  p {
+    text-align: justify;
+  }
+
   h2 {
     font-size: 1.4rem;
   }
