@@ -868,6 +868,31 @@ html.transition *:after {
   transition-delay: 0 !important;
 }
 
+// Typography scale — tighten heading sizes site-wide
+h1.post-title {
+  font-size: 1.75rem;
+}
+
+.post article {
+  h2 {
+    font-size: 1.4rem;
+  }
+
+  h3 {
+    font-size: 1.2rem;
+  }
+}
+
+// Publication year headings
+.publications h2 span {
+  font-size: 1.25rem;
+}
+
+// Social icons on about page
+.social .contact-icons {
+  font-size: 3rem;
+}
+
 // Extra Markdown style (post Customization)
 .post {
   .post-meta {
