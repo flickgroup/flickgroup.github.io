@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Method and software development
-description: QEDFT, Octopus, machine learning, and quantum computing for light-matter systems
+description:
 img: assets/img/methods_fig.png
 importance: 3
 category: work

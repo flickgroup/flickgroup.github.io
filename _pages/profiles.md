@@ -73,9 +73,14 @@ List of group members
 
 **Leon G Orlov-Sullivan**  (Undergraduate Physics 2024-)
 
-**Christopher A Bennett**  (Undergraduate Physics 2024-)
+<h4>Visiting Students:</h4>
 
+**Jonas Vinther** (Kopenhagen University 2025-)
+
+**Yifan Li** (Princeton Graduate Student 2024-)
 
 <h4>Past group members:</h4>
+
+**Christopher A Bennett** (Undergraduate Physics 2024-2025)
 
 **Gabriel Lopez Morales** (CREST Postdoctoral Fellow 2022-2024), now Postdoc at Stonybrook University.
