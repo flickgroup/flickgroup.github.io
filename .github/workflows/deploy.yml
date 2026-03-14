@@ -91,10 +91,7 @@ jobs:
           path: ~/.npm
           key: ${{ runner.os }}-purgecss-v6
       - name: Install imagemagick 🖼️
-        uses: awalsh128/cache-apt-pkgs-action@latest
-        with:
-          packages: imagemagick
-          version: 1.0
+        run: sudo apt-get install -y imagemagick
       - name: Update _config.yml ⚙️
         uses: fjogeleit/yaml-update-action@main
         with:
