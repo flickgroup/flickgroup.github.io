@@ -5,6 +5,7 @@ title: software
 description:
 nav: true
 nav_order: 3
+related_publications: true
 ---
 
 Various software libraries to treat electronic structure problems and strong light-matter interactions are developed in the Flick Group. We list a selection below.
@@ -25,8 +26,4 @@ QED-CCSD is an implementation of coupled-cluster singles and doubles for quantum
 
 [Octopus](https://www.octopus-code.org) is an open-source real-space code for time-dependent density-functional theory (TDDFT) and quantum electrodynamical density-functional theory (QEDFT). Our group actively contributes to its development, in particular the implementation of QEDFT for coupled electron-photon systems {% cite 2020tancogneoctopus %}.
 
----
 
-## References
-
-{% bibliography --cited_in_order %}
