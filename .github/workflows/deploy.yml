@@ -95,7 +95,7 @@ jobs:
           value: ${{ github.repository }}
       - name: Install and Build 🔧
         run: |
-          pip3 install --upgrade nbconvert
+          pip3 install -r requirements.txt
           export JEKYLL_ENV=production
           bundle exec jekyll build
       - name: Purge unused CSS 🧹
