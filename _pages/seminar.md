@@ -4,7 +4,7 @@ permalink: /seminar/
 title: seminar
 description: 
 nav: true
-nav_order: 4
+nav_order: 5
 ---
 
 To learn more about the CCQ-NYU Light-Matter Seminar Series     
