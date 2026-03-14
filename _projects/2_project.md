@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Electronic structure of quantum defects
-description:
+description: NV centers, color centers, and quantum emitters from first principles
 img: assets/img/defects_fig.png
 importance: 2
 category: work

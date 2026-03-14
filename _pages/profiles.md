@@ -11,7 +11,7 @@ List of group members
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/johannes.jpg" class="img-fluid rounded-circle z-depth-1" %}
+        <img src="{{ 'assets/img/johannes.jpg' | relative_url }}" class="people-photo z-depth-1" alt="Johannes Flick">
     <figcaption class="caption">
     <h4>Johannes Flick</h4>
     <h5>Principle Investigator</h5>
@@ -23,7 +23,7 @@ List of group members
     </figcaption>
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/mohammad.jpg" class="img-fluid rounded-circle z-depth-1" %}
+        <img src="{{ 'assets/img/mohammad.jpg' | relative_url }}" class="people-photo z-depth-1" alt="Mohammad Hassan">
     <figcaption class="caption">
     <h4>Mohammad Hassan</h4>
     <h5>Graduate Student</h5>
@@ -32,7 +32,7 @@ List of group members
     </figcaption>
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/cankut.jpg" class="img-fluid rounded-circle z-depth-1" size="80vw" %}
+        <img src="{{ 'assets/img/cankut.jpg' | relative_url }}" class="people-photo z-depth-1" alt="Cankut Tasci">
         <figcaption class="caption">
     <h4>Cankut Tasci</h4>
     <h5>Graduate Student</h5>
@@ -46,7 +46,7 @@ List of group members
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/jc.jpg" class="img-fluid rounded-circle z-depth-1" %}
+        <img src="{{ 'assets/img/jc.jpg' | relative_url }}" class="people-photo z-depth-1" alt="J.C. Umana">
     <figcaption class="caption">
     <h4>J.C. Umana</h4>
     <h5>Graduate Student</h5>
@@ -55,7 +55,7 @@ List of group members
     </figcaption>
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/leo2.jpg" class="img-fluid rounded-circle z-depth-1" %}
+        <img src="{{ 'assets/img/leo2.jpg' | relative_url }}" class="people-photo z-depth-1" alt="Leonardo dos Anjos Cunha">
     <figcaption class="caption">
     <h4>Leonardo dos Anjos Cunha</h4>
     <h5>Postdoctoral Fellow at Flatiron Institute CCQ</h5>

@@ -899,6 +899,17 @@ h1.post-title {
   font-size: 1.25rem;
 }
 
+// People page — consistent circular profile photos
+.people-photo {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  object-position: center top;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto 0.75rem auto;
+}
+
 // Social icons on about page
 .social .contact-icons {
   font-size: 3rem;
