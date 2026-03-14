@@ -16,10 +16,16 @@ Publications in reversed chronological order. For a complete list visit <a href=
 <style>
   .publications { counter-reset: pub-num {{ pub_total | plus: 1 }}; }
   .publications ol.bibliography { list-style: none; padding-left: 0; }
+  .publications ol.bibliography > li {
+    position: relative;
+    padding-left: 3em;
+  }
   .publications ol.bibliography > li::before {
     content: '[' counter(pub-num) '] ';
     counter-increment: pub-num -1;
     font-weight: bold;
+    position: absolute;
+    left: 0;
   }
 </style>
 
