@@ -2,7 +2,7 @@
 layout: page
 title: Method and software development
 description:
-img: assets/img/methods_fig.jpg
+img: assets/img/methods_fig.png
 importance: 3
 category: work
 related_publications: true
