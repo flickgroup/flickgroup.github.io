@@ -71,17 +71,17 @@ List of group members
 
 <h4>Undergraduate Students:</h4>
 
-**Leon G Orlov-Sullivan**  (Undergraduate Physics 2024-)
+**Leon G Orlov-Sullivan**  (CCNY Undergraduate Physics 2024-)
 
 <h4>Visiting Students:</h4>
 
-**Jonas Vinther** (Kopenhagen University 2025-)
+**Jonas Vinther** (Kopenhagen University Graduate Student 2025-)
 
-**Yifan Li** (Princeton Graduate Student 2024-)
+**Yifan Li** (Princeton University Graduate Student 2024-)
 
 <h4>Past group members:</h4>
 
-**Christopher A Bennett** (Undergraduate Physics 2024-2025)
+**Christopher A Bennett** (CCNY Undergraduate Physics 2024-2025)
 
 **Gabriel Lopez Morales** (CREST Postdoctoral Fellow 2022-2024), now Postdoc at Stonybrook University.
 
