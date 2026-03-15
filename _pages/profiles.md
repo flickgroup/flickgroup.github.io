@@ -84,3 +84,12 @@ List of group members
 **Christopher A Bennett** (Undergraduate Physics 2024-2025)
 
 **Gabriel Lopez Morales** (CREST Postdoctoral Fellow 2022-2024), now Postdoc at Stonybrook University.
+
+<h4>Group Pictures:</h4>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        <img src="{{ 'assets/img/group_oct2025.jpg' | relative_url }}" class="img-fluid z-depth-1" alt="Flick Group, October 2025">
+        <figcaption class="caption">October 2025</figcaption>
+    </div>
+</div>
