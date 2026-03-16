@@ -7,5 +7,4 @@ nav: true
 nav_order: 5
 ---
 
-To learn more about the CCQ-NYU Light-Matter Seminar Series     
-co-organized by the Flick (CCNY/CCQ) and Hoffmann (NYU) Groups, please visit the seminar webpage <a href="https://www.hoffmanngroup.info/lmseminar">here</a>.
+We co-organize the monthly CCQ-NYU Light-Matter Seminar Series together with the Hoffmann Group (NYU) alternating at CCQ (Fridays) and NYU (Thursdays). To learn more, please visit the seminar webpage <a href="https://www.hoffmanngroup.info/lmseminar">here</a>.
