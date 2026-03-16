@@ -7,9 +7,9 @@ nav: true
 nav_order: 6
 ---
 
-The Flick group embraces an interdisciplinary and team-oriented approach to science and welcomes trainees with backgrounds in physics, chemistry, or computing.
+The Flick Group embraces an interdisciplinary and team-oriented approach to science and welcomes trainees with backgrounds in physics, chemistry, or computing.
 
-**We firmly believe that a diverse team --both in scientific expertise and life experiences-- enhances the learning from each other and strengthens our research. We strive to create an inclusive environment for lab members of all backgrounds, regardless of race, religion, gender identification, sexual orientation, age, or disability status.**
+**We firmly believe that a diverse team, both in scientific expertise and life experiences, enhances the learning from each other and strengthens our research. We strive to create an inclusive environment for lab members of all backgrounds, regardless of race, religion, gender identification, sexual orientation, age, or disability status.**
 
 We are actively recruiting new members. If you are interested in joining, check out the open positions below and email us directly at jflick@ccny.cuny.edu with the relevant materials.
 
