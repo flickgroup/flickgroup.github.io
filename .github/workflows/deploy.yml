@@ -115,7 +115,7 @@ jobs:
         run: |
           pip3 install -r requirements.txt
           export JEKYLL_ENV=production
-          bundle exec jekyll build --profile
+          bundle exec jekyll build
       - name: Purge unused CSS 🧹
         run: npm install -g purgecss@6 && purgecss -c purgecss.config.js
       - name: Deploy 🚀
