@@ -58,7 +58,7 @@ List of group members
         <img src="{{ 'assets/img/leo2.jpg' | relative_url }}" class="people-photo z-depth-1" alt="Leonardo dos Anjos Cunha">
     <figcaption class="caption">
     <h4>Leonardo dos Anjos Cunha</h4>
-    <h5>Postdoctoral Fellow at Flatiron Institute CCQ</h5>
+    <h5>Assistant Professor of Chemistry and Biochemistry, Bates College (former Postdoc CCQ)</h5>
         Ph.D. in Chemistry University of California Berkeley (2023)<br/>
         M.Sc. in Physics Instituto Tecnologico de Aeronautica (2018)<br/>
         B.S.  in Electronics Engineering Instituto Tecnologico de Aeronautica (2017)
@@ -75,7 +75,7 @@ List of group members
 
 <h4>Visiting Students:</h4>
 
-**Lea Hauswirth** (CCQ Summer Intern 2026, now NYU)
+**Lea Hauswirth** (CCQ Summer Intern 2026/NYU Graduate Student)
 
 **Jonas Vinther** (Kopenhagen University Graduate Student 2025-)
 
