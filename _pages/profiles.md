@@ -99,6 +99,6 @@ List of group members
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         <img src="{{ 'assets/img/group_jun2026.jpg' | relative_url }}" class="img-fluid z-depth-1" alt="Flick Group, June 2026">
-        <figcaption class="caption">June 2026</figcaption>
+        <figcaption class="caption">June 2026, Farewell Leo</figcaption>
     </div>
 </div>
