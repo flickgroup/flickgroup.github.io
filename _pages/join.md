@@ -23,4 +23,4 @@ We are now accepting highly-motivated, serious and committed undergraduate stude
 
 **Postdoctoral Fellows:**
 
-We are currently hiring a Postdoctoral Fellow to work in the field of polaritonic materials and chemistry. Please [email](mailto:jflick@ccny.cuny.edu) your CV, and provide us the contact information of three references.
+We are currently hiring a Postdoctoral Fellow to work in the field of polaritonic materials and chemistry. Please [email](mailto:jflick@ccny.cuny.edu) your CV, and provide us the contact information of three references. We would also be happy to host Postdocs with external funding, such as NSF, DFG, Marie-Curie/ERC, Humboldt, SNSF, etc...
