@@ -2,7 +2,6 @@
 layout: page
 title: research
 permalink: /projects/
-description: Ongoing research projects in the Flick Group.
 nav: true
 nav_order: 1
 display_categories:
@@ -10,6 +9,9 @@ horizontal: false
 ---
 
 <!-- pages/projects.md -->
+
+Ongoing research projects in the Flick Group.
+
 <div class="projects">
 {% if site.enable_project_categories and page.display_categories %}
   <!-- Display categorized projects -->

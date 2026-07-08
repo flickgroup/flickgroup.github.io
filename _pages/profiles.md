@@ -69,11 +69,11 @@ List of group members
 </div>
 
 
-<h4>Undergraduate Students:</h4>
+## Undergraduate Students
 
 **Leon G Orlov-Sullivan**  (CCNY Undergraduate Physics 2024-)
 
-<h4>Visiting Students:</h4>
+## Visiting Students
 
 **Lea Hauswirth** (CCQ Summer Intern 2026/NYU Graduate Student)
 
@@ -81,13 +81,13 @@ List of group members
 
 **Yifan Li** (Princeton University Graduate Student 2024-)
 
-<h4>Past group members:</h4>
+## Past group members
 
 **Christopher A Bennett** (CCNY Undergraduate Physics 2024-2025)
 
 **Gabriel Lopez Morales** (CREST Postdoctoral Fellow 2022-2024), now Postdoc at Stonybrook University.
 
-<h4>Group Pictures:</h4>
+## Group Pictures
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
