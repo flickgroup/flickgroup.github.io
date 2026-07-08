@@ -75,6 +75,8 @@ List of group members
 
 <h4>Visiting Students:</h4>
 
+**Lea Hauswirth** (CCQ Summer Intern 2026, now NYU)
+
 **Jonas Vinther** (Kopenhagen University Graduate Student 2025-)
 
 **Yifan Li** (Princeton University Graduate Student 2024-)
@@ -91,5 +93,12 @@ List of group members
     <div class="col-sm mt-3 mt-md-0">
         <img src="{{ 'assets/img/group_oct2025.jpg' | relative_url }}" class="img-fluid z-depth-1" alt="Flick Group, October 2025">
         <figcaption class="caption">October 2025</figcaption>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        <img src="{{ 'assets/img/group_jun2026.jpg' | relative_url }}" class="img-fluid z-depth-1" alt="Flick Group, June 2026">
+        <figcaption class="caption">June 2026</figcaption>
     </div>
 </div>
