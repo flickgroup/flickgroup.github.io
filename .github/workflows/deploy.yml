@@ -64,6 +64,11 @@ on:
 permissions:
   contents: write
 
+# Cancel superseded runs on the same ref instead of building each queued push.
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
 jobs:
   deploy:
     # available images: https://github.com/actions/runner-images#available-images
@@ -90,6 +95,13 @@ jobs:
         with:
           path: ~/.npm
           key: ${{ runner.os }}-purgecss-v6
+      - name: Cache Jekyll build 🗄️
+        uses: actions/cache@v5
+        with:
+          path: .jekyll-cache
+          key: ${{ runner.os }}-jekyll-${{ hashFiles('**/*.md', '**/*.html', '**/*.bib', '_config.yml') }}
+          restore-keys: |
+            ${{ runner.os }}-jekyll-
       - name: Install imagemagick 🖼️
         run: sudo apt-get install -y imagemagick
       - name: Update _config.yml ⚙️
@@ -103,7 +115,7 @@ jobs:
         run: |
           pip3 install -r requirements.txt
           export JEKYLL_ENV=production
-          bundle exec jekyll build
+          bundle exec jekyll build --profile
       - name: Purge unused CSS 🧹
         run: npm install -g purgecss@6 && purgecss -c purgecss.config.js
       - name: Deploy 🚀
