@@ -17,6 +17,6 @@ social: true # includes social icons at the bottom of the page
 
 Our group is interested in the electronic structure of a wide range of systems, with a focus on systems where the interaction between light and matter becomes strong. We study molecular systems and materials in optical cavities, as well as quantum defects in wide-band gap materials. To describe these systems, we develop theoretical methods, such as quantum-electrodynamical density-functional theory (QEDFT) and others.
 
-For more information about specific projects, please visit our <a href="https://flickgroup.github.io/projects/">research</a> page.
+For more information about specific projects, please visit our <a href="https://flickgroup.org/projects/">research</a> page.
 
 Our group is part of the Department of Physics at the <a href="https://www.ccny.cuny.edu">City College of New York (CCNY)</a>. We are located in the <a href="https://www.ccny.cuny.edu/research/center-discovery-and-innovation-cdi">Center for Discovery and Innovation (CDI)</a> (<a href="https://maps.app.goo.gl/FDSQHJqNxxtmHbzN9">google maps</a>) on the first floor (Room 2.368) and are affiliated with the <a href="https://www.simonsfoundation.org/flatiron/center-for-computational-quantum-phenomena/">Center for Computational Quantum Physics (CCQ)</a> at the Flatiron Institute. We welcome inquiries from prospective undergraduate students, graduate students and postdocs, see our <a href="/join/">join us</a> page for open positions.
