@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Electronic structure of quantum defects
-description:
+description: First-principles electronic structure of point defects in wide-bandgap materials, from NV centers in diamond to single-photon emitters.
 img: assets/img/defects_fig.png
 importance: 2
 category: work

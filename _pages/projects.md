@@ -2,6 +2,7 @@
 layout: page
 title: research
 permalink: /projects/
+description: Research in the Flick Group on polaritonic chemistry, quantum defects, and ab initio methods for strong light-matter coupling.
 nav: true
 nav_order: 1
 display_categories:

@@ -6,12 +6,19 @@ title: blank # the website title (if blank, full name will be used instead)
 first_name:
 middle_name:
 last_name: ab initio light-matter group
+
+# SEO metadata. These drive the <title> tag, meta author, OpenGraph and
+# Schema.org only, and never the visible headings on the page.
+seo_title: Flick Group, CCNY # site name used in the <title> tag and as og:site_name
+seo_tagline: Ab Initio Theory of Light-Matter Interactions # appended to the home page title only
+seo_author: Johannes Flick # the person credited in meta author and Schema.org
+seo_organization: Flick Group # the research group credited in Schema.org
 email: jflick@ccny.cuny.edu
 description: Ab initio theory of light-matter interactions
 footer_text:
 keywords: light-matter interactions, quantum electrodynamics, QEDFT, polaritons, quantum defects, ab initio
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://flickgroup.github.io # the base hostname & protocol for your site
 baseurl: # the subpath of your site, e.g. /blog/. Leave blank for root
@@ -59,9 +66,10 @@ max_width: 930px
 # -----------------------------------------------------------------------------
 # Display links to the page with a preview object on social media.
 # see https://schema.org/docs/faq.html for more information
-serve_og_meta: false # Include Open Graph meta tags in the HTML head
-serve_schema_org: false # Include Schema.org in the HTML head
-og_image: # The site-wide (default for all links) Open Graph preview image
+serve_og_meta: true # Include Open Graph meta tags in the HTML head
+serve_schema_org: true # Include Schema.org in the HTML head
+og_image: https://flickgroup.github.io/assets/img/og-image.jpg # The site-wide (default for all links) Open Graph preview image
+og_image_alt: The Flick Group outside the Center for Discovery and Innovation at CCNY
 
 # -----------------------------------------------------------------------------
 # Social integration
@@ -86,7 +94,7 @@ lattes_id: # your ID on Lattes (Brazilian Lattes CV)
 linkedin_username: # your LinkedIn user name
 mastodon_username: # your mastodon instance+username in the format instance.tld/@username
 medium_username: # your Medium username
-orcid_id: # your ORCID ID
+orcid_id: 0000-0003-0273-7797 # your ORCID ID
 osf_id: # your OSF ID
 pinterest_id: # your pinterest id
 publons_id: # your ID on Publons
@@ -121,7 +129,7 @@ cronitor_analytics: # cronitor RUM analytics site ID (format: XXXXXXXXX)
 pirsch_analytics: # your Pirsch analytics site ID (length 32 characters)
 
 # For Google Search Console, see https://support.google.com/webmasters/answer/9008080?hl=en#meta_tag_verification&zippy=%2Chtml-tag
-google_site_verification: # your google-site-verification ID (Google Search Console)
+google_site_verification: cFNeeTpDLe8TFGpd7wofSAp2tSlXVt1Oy3Cl_jt4g3E # your google-site-verification ID (Google Search Console)
 bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 
 # -----------------------------------------------------------------------------
@@ -418,7 +426,7 @@ lazy_loading_images: true # enables lazy loading of images (recommended)
 enable_google_analytics: false # enables google analytics
 enable_cronitor_analytics: false # enables cronitor RUM analytics
 enable_pirsch_analytics: false # enables Pirsch analytics (https://pirsch.io/)
-enable_google_verification: false # enables google site verification
+enable_google_verification: true # enables google site verification
 enable_bing_verification: false # enables bing site verification
 enable_masonry: true # enables automatic project cards arrangement
 enable_math: true # enables math typesetting (uses MathJax)

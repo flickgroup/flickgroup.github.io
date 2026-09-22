@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Method and software development
-description:
+description: QEDFT functionals, the cavity Born-Oppenheimer approximation, and open-source implementations for coupled electron-photon systems.
 img: assets/img/methods_fig.png
 importance: 3
 category: work

@@ -2,7 +2,7 @@
 layout: page
 permalink: /software/
 title: software
-description:
+description: Open-source codes from the Flick Group for electronic structure and strong light-matter interaction, including PhotonPilot, QED-CCSD, and Octopus.
 nav: true
 nav_order: 3
 related_publications: true

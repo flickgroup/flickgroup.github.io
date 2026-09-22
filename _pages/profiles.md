@@ -2,7 +2,7 @@
 layout: page
 permalink: /people/
 title: people
-description:
+description: Current members and alumni of the Flick Group, the ab initio light-matter theory group at the City College of New York.
 nav: true
 nav_order: 4
 ---
@@ -14,7 +14,7 @@ List of group members
         <img src="{{ 'assets/img/johannes.jpg' | relative_url }}" class="people-photo z-depth-1" alt="Johannes Flick">
     <figcaption class="caption">
     <h4>Johannes Flick</h4>
-    <h5>Principle Investigator</h5>
+    <h5>Principal Investigator</h5>
         Assistant Professor CCNY, since 2022.<br/>
         (Affiliate) Associate Research Scientist, Flatiron Institute CCQ, since 2019.<br/>
         DFG Postdoctoral Fellow, Harvard University (2017 - 2019).<br/>

@@ -15,29 +15,43 @@
 {% endif %}
 
 {% capture author_name %}{{ site.first_name }}{% if site.middle_name %} {{ site.middle_name }}{% endif %} {{ site.last_name }}{% endcapture %}
+{% assign author_name = author_name | strip %}
+{% if site.seo_author %}
+  {% assign author_name = site.seo_author %}
+{% endif %}
 
 <!-- Standard metadata -->
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
-<title>
-  {% if site.title == 'blank' %}
-    {% capture title %}{{ author_name }}{% endcapture %}
+{% comment %}
+  `title` is the site name, reused below as og:site_name.
+  `page_title` is the full contents of the <title> tag. A page can override
+  the leading part with `seo_title` in its front matter.
+{% endcomment %}
+{% if site.seo_title %}
+  {% capture title %}{{ site.seo_title }}{% endcapture %}
+{% elsif site.title == 'blank' %}
+  {% capture title %}{{ author_name }}{% endcapture %}
+{% else %}
+  {% capture title %}{{ site.title }}{% endcapture %}
+{% endif %}
+{% if page.seo_title %}
+  {% capture page_title %}{{ page.seo_title }} | {{ title }}{% endcapture %}
+{% elsif page.url == '/blog/index.html' %}
+  {% capture page_title %}{{ page.title }} | {{ title }}{% endcapture %}
+{% elsif page.title != 'blank' and page.url != '/' %}
+  {% if page.title == null or page.title == '' %}
+    {% capture page_title %}{{ page.date | date: '%Y' }} | {{ title }}{% endcapture %}
   {% else %}
-    {% capture title %}{{ site.title }}{% endcapture %}
+    {% capture page_title %}{{ page.title }} | {{ title }}{% endcapture %}
   {% endif %}
-  {% if page.url == '/blog/index.html' %}
-    {{ page.title }} | {{ title }}
-  {% elsif page.title != 'blank' and page.url != '/' %}
-    {% if page.title == null or page.title == '' %}
-      {{ page.date | date: '%Y' }} | {{ title }}
-    {% else %}
-      {{ page.title }} | {{ title }}
-    {% endif %}
-  {% else %}
-    {{ title }}
-  {% endif %}
-</title>
+{% elsif site.seo_tagline %}
+  {% capture page_title %}{{ title }} | {{ site.seo_tagline }}{% endcapture %}
+{% else %}
+  {% capture page_title %}{{ title }}{% endcapture %}
+{% endif %}
+<title>{{ page_title }}</title>
 <meta name="author" content="{{ author_name }}">
 <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
 {% if page.keywords or site.keywords %}
@@ -55,17 +69,23 @@
   <!-- OpenGraph -->
   <meta property="og:site_name" content="{{ title }}">
   <meta property="og:type" content="{% if is_blog_post %}article{% else %}website{% endif %}">
-  <meta property="og:title" content="{% if page.title %}{{ title }} | {{ page.title }}{% else %}{{ title }}{% endif %}">
+  <meta property="og:title" content="{{ page_title }}">
   <meta property="og:url" content="{{ page.url | prepend: site.baseurl | prepend: site.url | remove_first: 'index.html' }}">
   <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
   {% if page.og_image or site.og_image %}
     <meta property="og:image" content="{% if page.og_image %}{{ page.og_image }}{% else %}{{ site.og_image }}{% endif %}">
+    {% if page.og_image_alt or site.og_image_alt %}
+      <meta
+        property="og:image:alt"
+        content="{% if page.og_image_alt %}{{ page.og_image_alt }}{% else %}{{ site.og_image_alt }}{% endif %}"
+      >
+    {% endif %}
   {% endif %}
   <meta property="og:locale" content="{{ site.lang }}">
 
   <!-- Twitter card -->
-  <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ title }}{% endif %}">
+  <meta name="twitter:card" content="{% if page.og_image or site.og_image %}summary_large_image{% else %}summary{% endif %}">
+  <meta name="twitter:title" content="{{ page_title }}">
   <meta name="twitter:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
   {% if page.og_image or site.og_image %}
     <meta name="twitter:image" content="{% if page.og_image %}{{ page.og_image }}{% else %}{{ site.og_image }}{% endif %}">
@@ -222,20 +242,68 @@
 
   <script type="application/ld+json">
     {
+        "@context": "https://schema.org",
+        "@type": "{% if is_blog_post %}BlogPosting{% else %}WebSite{% endif %}",
+        "name": "{{ title }}",
+        "url": "{{ page.url | prepend: site.baseurl | prepend: site.url }}",
+        "headline": "{% if page.title %}{{ page.title }}{% else %}{{ title }}{% endif %}",
+        "description": "{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}",
+        {% if site.lang %}
+        "inLanguage": "{{ site.lang }}",
+        {% endif %}
         "author":
         {
             "@type": "Person",
-            "name": "{{ author_name }}"
-        },
-        "url": "{{ page.url | prepend: site.baseurl | prepend: site.url }}",
-        "@type": "{% if is_blog_post %}BlogPosting{% else %}WebSite{% endif %}",
-        "description": "{% if page.description %}{{ page.description }}{% else if site.description %}{{ site.description }}{% endif %}",
-        "headline": "{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}",
-        {% if sameaslinks != blank %}
-        "sameAs": {{ sameaslinks }},
-        {% endif %}
-        "name": "{{ author_name }}",
-        "@context": "https://schema.org"
+            "name": "{{ author_name }}"{% if sameaslinks != blank %},
+            "sameAs": {{ sameaslinks }}{% endif %}
+        }
     }
   </script>
+
+  {% comment %}
+    Home page only: describe the group itself, so search engines can tie the
+    site to the research group as an entity rather than to a single person.
+  {% endcomment %}
+  {% if site.seo_organization and page.url == '/' %}
+    <script type="application/ld+json">
+      {
+          "@context": "https://schema.org",
+          "@type": "ResearchOrganization",
+          "name": "{{ site.seo_organization }}",
+          {% if site.last_name %}
+          "alternateName": "{{ site.last_name }}",
+          {% endif %}
+          "url": "{{ site.url }}{{ site.baseurl }}/",
+          "description": "{{ site.description }}",
+          {% if site.email %}
+          "email": "{{ site.email }}",
+          {% endif %}
+          {% if site.og_image %}
+          "image": "{{ site.og_image }}",
+          {% endif %}
+          {% if site.keywords %}
+          "knowsAbout": {{ site.keywords | split: ', ' | jsonify }},
+          {% endif %}
+          "parentOrganization":
+          {
+              "@type": "CollegeOrUniversity",
+              "name": "The City College of New York",
+              "url": "https://www.ccny.cuny.edu"
+          },
+          "founder":
+          {
+              "@type": "Person",
+              "name": "{{ author_name }}",
+              "jobTitle": "Assistant Professor of Physics",
+              "affiliation":
+              {
+                  "@type": "CollegeOrUniversity",
+                  "name": "The City College of New York"
+              }{% if sameaslinks != blank %},
+              "sameAs": {{ sameaslinks }}{% endif %}
+          }{% if site.github_username %},
+          "sameAs": ["https://github.com/{{ site.github_username }}"]{% endif %}
+      }
+    </script>
+  {% endif %}
 {% endif %}

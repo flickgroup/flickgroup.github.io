@@ -2,7 +2,7 @@
 layout: page
 permalink: /seminar/
 title: seminar
-description: 
+description: The monthly CCQ-NYU Light-Matter Seminar Series, co-organized by the Flick Group at CCNY and the Hoffmann Group at NYU.
 nav: true
 nav_order: 5
 ---

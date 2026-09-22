@@ -7,6 +7,7 @@ subtitle: Welcome to the Flick Group website! #<a href='#'>Affiliations</a>. Add
 profile:
   align: right
   image: cdi.jpg
+  image_alt: The Center for Discovery and Innovation at the City College of New York
   image_circular: false # crops the image to make it circular
 
 news: false # includes a list of news items

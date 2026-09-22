@@ -2,7 +2,7 @@
 layout: page
 permalink: /join/
 title: join us
-description: 
+description: Open positions for undergraduate researchers, PhD students, and postdocs in the Flick Group at the City College of New York.
 nav: true
 nav_order: 6
 ---

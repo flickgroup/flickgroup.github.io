@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Polaritonic chemistry and materials
-description: 
+description: Molecules and materials in optical cavities, described from first principles with quantum-electrodynamical density-functional theory.
 img: assets/img/polaritonicchem2.png
 importance: 1
 category: work

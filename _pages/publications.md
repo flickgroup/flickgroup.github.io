@@ -2,7 +2,7 @@
 layout: page
 permalink: /publications/
 title: publications
-description:
+description: Peer-reviewed articles and preprints from the Flick Group on QEDFT, polaritonic chemistry, and the electronic structure of quantum defects.
 nav: true
 nav_order: 2
 ---
