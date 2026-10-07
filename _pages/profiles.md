@@ -27,8 +27,8 @@ List of group members
     <figcaption class="caption">
     <h4>Mohammad Hassan</h4>
     <h5>Graduate Student</h5>
-        Ph.D. The CUNY Graduate Center (2021-Present)<br/>
-        B.S. The City College of New York (2021)
+        Ph.D. in Physics, The CUNY Graduate Center (2021-Present)<br/>
+        B.E. in Mechanical Engineering, The City College of New York (2021)
     </figcaption>
     </div>
     <div class="col-sm mt-3 mt-md-0">
